@@ -1,5 +1,5 @@
 import cron from 'node-cron';
-import fetch from 'node-fetch';
+import fetch from 'node-fetch-native';
 
 const url = 'https://intagpt.onrender.com/';
 
