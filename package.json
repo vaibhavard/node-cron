@@ -58,6 +58,6 @@
   },
   "dependencies": {
     "node-cron": "^3.0.2",
-    "node-fetch":  "^3.3.2" // add this line
+    "node-fetch":  "^3.3.2"
   }
 }
