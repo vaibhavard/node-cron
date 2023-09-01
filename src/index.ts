@@ -3,7 +3,7 @@ import fetch from 'node-fetch-native';
 
 const url = 'https://intagpt.onrender.com/';
 
-cron.schedule('*/30 * * * *', async () => {
+cron.schedule('*/16 * * * *', async () => {
   try {
     console.log('Sending GET request...');
     const response = await fetch(url);
