@@ -13,8 +13,6 @@ cron.schedule('*/15 * * * *', async () => {
       console.log('GET request successful:', data);
     } else {
       console.error('GET request failed:', response.status, response.statusText);
-      const response = await fetch(url);
-      const data = await response.text();
     }
   } catch (error) {
     const response = await fetch(url);
